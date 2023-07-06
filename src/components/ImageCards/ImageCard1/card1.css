@@ -1,0 +1,91 @@
+.page-about__collage--products {
+  padding-top: 8.33333vw;
+  padding-bottom: 8.33333vw;
+}
+
+.page-about__collage {
+  position: relative;
+}
+.page-about__text,
+.page-about__collage,
+.page-about__media {
+  margin-bottom: 8.33333vw;
+}
+.page-about__collage--products .page-about__collage__background {
+  width: 58.33333vw;
+  height: 58.33333vw;
+  left: 41.66667vw;
+}
+
+.page-about__collage__background {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+.bg-lemonade {
+  background-color: #fbffa7 !important;
+}
+.page-about__collage__media {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url('../../../assets/images/photo-1.jpg');
+}
+.page-about__collage--products .page-about__collage__media {
+  width: 41.66667vw;
+  height: 41.66667vw;
+  margin-left: 8.33333vw;
+}
+.page-about__collage__media,
+.page-about__collage__container {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+}
+.page-about__collage--products {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url('../../../assets/images/photo-2.jpg');
+}
+.page-about__collage--products .page-about__collage__media:last-child {
+  width: 33.33333vw;
+  height: 25vw;
+  margin-left: 8.33333vw;
+}
+.page-about__collage--products .page-about__collage__media {
+  width: 41.66667vw;
+  height: 41.66667vw;
+  margin-left: 8.33333vw;
+}
+.page-about__collage__media,
+.page-about__collage__container {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+}
+.page-about__collage--products {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url('../../../assets/images/photo-3.jpg');
+}
+.page-about__collage--products .page-about__collage__media:last-child {
+  width: 33.33333vw;
+  height: 25vw;
+  margin-left: 8.33333vw;
+}
+.page-about__collage--products .page-about__collage__media {
+  width: 41.66667vw;
+  height: 41.66667vw;
+  margin-left: 8.33333vw;
+}
+.page-about__collage__media,
+.page-about__collage__container {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+}

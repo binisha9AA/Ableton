@@ -1,0 +1,12 @@
+.heading {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 0.7em;
+  margin-top: 2em;
+  font-weight: bold;
+}
+.paragraph {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: normal;
+}

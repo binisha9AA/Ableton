@@ -1,0 +1,20 @@
+.footer {
+  padding: 10px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.footer_logo {
+  font-weight: bold;
+  font-size: 16px;
+}
+.signup {
+  font-weight: 500;
+}
+.input_field {
+  display: flex;
+  height: 10px;
+  margin-top: 5px;
+  background-color: #eee;
+}

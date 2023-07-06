@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+}
+
+.main_content {
+  width: 260px;
+  margin-inline: auto;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 21px;
+  margin-bottom: 22px;
+}
+span {
+  color: #0000ff;
+}
+.hero_paragraph {
+  font-size: 16px;
+}
+.about_collage {
+  position: relative;
+  margin-bottom: 8;
+  padding-top: 8.33333vw;
+  padding-bottom: 8.33333vw;
+}
+.collage_background {
+  left: 41%;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  background-color: #fbffa7 !important;
+}
+.image_fluid {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url('../../assets/images/photo-1.jpg');
+  z-index: 1;
+}

@@ -1,0 +1,5 @@
+.hero_image {
+  /* width: 335px; */
+  /* height: 730px; */
+  object-fit: contain;
+}
