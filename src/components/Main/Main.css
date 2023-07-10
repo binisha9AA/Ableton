@@ -42,3 +42,8 @@ span {
   background-image: url('../../assets/images/photo-1.jpg');
   z-index: 1;
 }
+@media screen and (min-width: 900px) {
+  .main_content {
+    min-width: 900px;
+  }
+}

@@ -1,12 +1,28 @@
 .heading {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.7;
   margin-bottom: 0.7em;
   margin-top: 2em;
-  font-weight: bold;
+  font-weight: 500;
 }
 .paragraph {
   font-size: 14px;
   line-height: 1.5;
   font-weight: normal;
+}
+@media screen and (min-width: 900px) {
+  .main_content {
+    min-width: 900px;
+  }
+  .heading {
+    font-size: 20px;
+    width: 700px;
+    margin-inline: auto;
+    line-height: 1.7;
+  }
+  .paragraph {
+    font-size: 16px;
+    width: 700px;
+    margin-inline: auto;
+  }
 }

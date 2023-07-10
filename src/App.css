@@ -1,6 +1,22 @@
 .navigation li {
   text-decoration: none;
 }
+body {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  color: black;
+}
+img {
+  display: inline;
+}
+@media screen and (min-width: 900px) {
+  .home {
+    background-color: #f3f3f3;
+    padding-inline: 60px;
+  }
+  .home_main {
+    background-color: white;
+  }
+}
 /* #root {
   max-width: 1280px;
   margin: 0 auto;

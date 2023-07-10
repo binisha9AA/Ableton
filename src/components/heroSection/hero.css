@@ -1,5 +1,30 @@
+.image_section {
+  position: relative;
+}
+.text {
+  position: absolute;
+  left: 25%;
+  top: 50%;
+}
+.image_text {
+  color: #fd5948;
+  font-size: 40px;
+}
 .hero_image {
-  /* width: 335px; */
-  /* height: 730px; */
-  object-fit: contain;
+  height: 800px;
+  width: 435px;
+  object-fit: cover;
+}
+@media screen and (min-width: 900px) {
+  .hero_image {
+    width: auto;
+  }
+  .text {
+    position: absolute;
+    left: 35%;
+    top: 50%;
+  }
+  .image_text {
+    font-size: 80px;
+  }
 }

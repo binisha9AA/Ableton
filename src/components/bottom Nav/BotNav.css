@@ -1,0 +1,12 @@
+.bottom_navigation {
+  padding: 20px;
+}
+ul {
+  display: flex;
+  flex: row;
+  gap: 10px;
+}
+ul li a {
+  font-weight: 500;
+  font-size: 14px;
+}

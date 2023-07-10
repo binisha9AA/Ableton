@@ -9,6 +9,14 @@ ul li a:hover {
 ul li a.active {
   color: #00a8ff;
 }
+body {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  color: black;
+}
+img {
+  display: inline;
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

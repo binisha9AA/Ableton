@@ -1,0 +1,23 @@
+.main_container {
+  width: 100%;
+  position: relative;
+  height: 200px;
+  /* border: 2px solid; */
+}
+.background {
+  background-color: #d5b3ff;
+  height: 100%;
+  margin-inline: 20px;
+}
+.left_image {
+  position: absolute;
+  top: 30%;
+  right: 50%;
+  background-position: 50% 50%;
+}
+.right_image {
+  position: absolute;
+  top: 15%;
+  left: 45%;
+  background-position: 50% 50%;
+}

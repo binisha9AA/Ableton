@@ -1,0 +1,47 @@
+.imgtext_card {
+  display: flex;
+  flex-direction: column;
+  background-color: #b1c5ff;
+  min-height: 416px;
+  margin-block: 20px;
+}
+.bottom_text {
+  padding: 20px;
+  line-height: 1.5;
+}
+.link {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.link a {
+  font-size: 16px;
+  color: blue;
+  font-weight: 500;
+}
+
+.img_text {
+  font-size: calc(18px+ 0.6vw);
+  color: black;
+  line-height: 1.5;
+}
+@media screen and (min-width: 900px) {
+  .imgtext_card {
+    display: flex;
+    flex-direction: row;
+  }
+  .bottom_text {
+    margin-inline: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .img_text {
+    font-size: 24px;
+  }
+  .job_image {
+    height: 100%;
+    object-fit: cover;
+  }
+}

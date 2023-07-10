@@ -4,8 +4,13 @@ import './hero.css';
 
 export default function HeroSection() {
   return (
-    <div className="hero_image">
-      <img src={heroimage} alt="" />
+    <div className="image_section">
+      <div className="text">
+        <h2 className="image_text">Ableton</h2>{' '}
+      </div>
+      <div className="image">
+        <img src={heroimage} alt="" className="hero_image" />
+      </div>
     </div>
   );
 }

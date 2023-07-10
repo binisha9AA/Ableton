@@ -1,3 +1,10 @@
+.footer_content {
+  width: 260px;
+  margin-inline: auto;
+  margin-top: 35px;
+  /* border-top: 1px solid gray; */
+}
+
 .footer {
   padding: 10px;
   color: black;
@@ -7,14 +14,130 @@
 }
 .footer_logo {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 24px;
+  color: black;
+  margin-bottom: 14px;
+}
+.text-title {
+  text-align: left;
+  font-size: 24px;
+  color: black;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.footer_head {
+  margin-block: 10px;
+}
+.sign_news {
+  font-size: 18px;
+}
+.sign {
+  font-weight: 500;
+  font-size: 14px;
+}
+.sign_para {
+  font-size: 12px;
+}
+.language_chooser,
+.country_chooser {
+  height: 30px;
+  background-color: eeeeee;
+}
+.sign,
+.sign_para {
+  color: black;
 }
 .signup {
   font-weight: 500;
 }
+.signup_text {
+  text-align: left;
+}
 .input_field {
   display: flex;
-  height: 10px;
-  margin-top: 5px;
+  height: 28px;
+  margin-block: 10px;
   background-color: #eee;
+}
+
+.edn {
+  color: black;
+  margin-bottom: 5px;
+  font-size: 14px;
+  margin-right: 0;
+  display: flex;
+  color: black;
+  align-items: center;
+}
+.title_heading {
+  font-weight: 500;
+  color: black;
+}
+.input {
+  background: #eee;
+  flex-basis: 70%;
+  text-indent: 12px;
+  font-size: 14px;
+}
+.send {
+  background: blue;
+  flex-grow: 1;
+  color: white;
+  font-size: 14px;
+}
+.link_sections {
+  display: flex;
+  align-items: center;
+}
+.link_sections a {
+  color: black;
+  font-size: 14px;
+}
+.social_media_logos {
+  gap: 6px;
+  display: flex;
+  margin-block: 10px;
+}
+.contact_us ul {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+.selection_box {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+.language_chooser,
+.country_chooser {
+  background-color: #eee;
+  font-size: 12px;
+}
+.language_chooser {
+  flex-basis: 40%;
+}
+.country_chooser {
+  flex-grow: 1;
+}
+.language_section {
+  margin-block: 15px;
+}
+@media screen and (min-width: 900px) {
+  .footer_content {
+    display: flex;
+    width: auto;
+    gap: 30px;
+    justify-content: center;
+  }
+  .footer_one {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex-basis: 25%;
+  }
+  .footer_three {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }

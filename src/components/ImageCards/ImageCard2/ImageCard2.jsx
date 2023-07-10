@@ -1,12 +1,12 @@
 import React from 'react';
-import imageone from '../../../assets/images/photo-4.jpg';
+import poster from '../../../assets/images/poster-meet-the-makers.jpg';
 
-export default function imageCard2() {
+export default function ImageCard2() {
   return (
     <>
       <div className="page_about">
         <div className="left">
-          <img src={imageone} alt="" />
+          <img src={poster} alt="" />
         </div>
       </div>
     </>
